@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.baner{
+    box-sizing: border-box;
+    margin: 30px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.h1nav{
+    padding: 80px 0px 0px 0px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+
+}
+
+.himg{
+    margin: 0px;
+    text-align: right;
+    width: 20%;
+    height: 100%;
+
+}
+
+.htext{
+    width: 80%;
+    height: 100%;
+}
+
+nav{
+    text-align: center;
+    width: 60%;
+    margin: 20px 20%;
+    padding: 20px 20px;
+    background-color: #34c972;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: #21884c;
+}
+
+.titulo1{
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;   
+}
+
+.column{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+}
+
+div img{
+    margin: 10px 10px 0px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.asidetext{
+    font-size: small;
+    text-align: center;
+    margin: 0px 10px 10px;
+    width: 100%;
+    max-width: 250px;
+    color: rgb(87, 87, 87);
+}
+
+.main{
+    width: 60%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    width: 100%;
+    height: auto;
+}
+p{
+    width: 100%;
+    align-items: center;
+}
+
+
+
+footer{
+    font-size: small;
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+.img{
+    float: right;
+    clear:right;
+}
+
+UL{
+    display: block;
+    float: right;
+    list-style-type: none;
+    text-align: left;
+    height:auto;
+    width: 240px;
+    margin: 100px 15% 0px 0px;
+    background-color: rgb(201, 52, 52);
+}
+
+ul a{
+    text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+ul a:hover{
+    width: 260px;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+    margin: -10px 0px;
+    display: block;
+    text-decoration: underline;
+    background-color: #21884c;
+}
+
+ul li{
+    letter-spacing: 2px;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0px 10px 20px;
+}
